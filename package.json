@@ -4,7 +4,8 @@
   "description": "This puppy is a happy puppy whenever he sees you.",
   "main": "main.js",
   "scripts": {
-    "build-css": "node-sass style/main.scss style/main.css"
+    "build-css": "node-sass style/main.scss style/main.css",
+    "postinstall": "npm run build-css"
   },
   "keywords": [
     "trackingjs",
@@ -12,12 +13,17 @@
     "detection",
     "js",
     "javascript",
-    "sad",
+    "happy",
     "puppy",
     "felvct"
   ],
   "author": "Felix Vaucourt",
   "license": "MIT",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/felvct/trackingjs-happy-puppy"
+  },
   "devDependencies": {
     "node-sass": "^4.9.0"
   }

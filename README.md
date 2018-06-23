@@ -7,11 +7,17 @@ Make sure to have enough light in your room (and worst-case scenario remove your
 ## Get started
 
 ```bash
-#i nstall dependecies
-npm install
-
-# compile the sass file
-npm run build-css
+# install dependecies
+$ npm install
 ```
 
 Open the `index.html` file in your browser.
+
+## Development
+
+If you made changes to `style/main.scss` you will have to compile the latest sass file:
+
+```bash
+# compile sass file
+$ npm run build-css
+```
