@@ -1,0 +1,24 @@
+{
+  "name": "happy-puppy",
+  "version": "1.0.0",
+  "description": "This puppy is a happy puppy whenever he sees you.",
+  "main": "main.js",
+  "scripts": {
+    "build-css": "node-sass style/main.scss style/main.css"
+  },
+  "keywords": [
+    "trackingjs",
+    "face",
+    "detection",
+    "js",
+    "javascript",
+    "sad",
+    "puppy",
+    "felvct"
+  ],
+  "author": "Felix Vaucourt",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
